@@ -1,0 +1,18 @@
+{
+  "name": "firewall_telemetry_monitoring",
+  "version": "1.0.0",
+  "description": "This is a Firewall management projecr with grafana dashboard monitoring",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arijit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "nodemon": "^3.1.10",
+    "prom-client": "^15.1.3"
+  }
+}
