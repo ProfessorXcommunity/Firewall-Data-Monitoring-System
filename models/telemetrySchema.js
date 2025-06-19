@@ -16,4 +16,4 @@ const telemetrySchema = new mongoose.Schema({
   threat_name: String,
 });
 
-module.exports = mongoose.model("Telemetry", telemetrySchema, "firewall");
+module.exports = mongoose.model("telemetry", telemetrySchema, "firewall");

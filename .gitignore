@@ -20,3 +20,5 @@ Thumbs.db
 # Optional: Ignore build outputs, depending on project
 dist/
 build/
+.env
+prometheus.yml
